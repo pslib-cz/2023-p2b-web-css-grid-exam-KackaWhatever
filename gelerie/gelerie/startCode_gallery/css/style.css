@@ -124,14 +124,20 @@ main {
 
 
 @media (min-width: 700px) {
+    
     #galerie{
         background-color: #4C2121;
-        
     }
     .gallery{
         display: grid;
         grid-template-rows: 1;
         gap: 1px;
+    }
+    .gItem__img{
+        display: flex;
+        flex-grow: 0;
+        flex-shrink: 1;
+        
     }
 }
 @media (min-width: 1200px) {
